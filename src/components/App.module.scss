@@ -1,0 +1,19 @@
+.container {
+	max-width: 800px;
+	min-height: 600px;
+	margin: auto;
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-sizing: border-box;
+}
+
+.title {
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.textNoneTodo {
+	margin: 30px;
+}

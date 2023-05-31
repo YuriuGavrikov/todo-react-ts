@@ -1,0 +1,51 @@
+.container {
+	width: 100%;
+	min-width: 320px;
+	margin: 10px;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #f0f0f0;
+	border-radius: 6px;
+	box-shadow: 7px 7px 5px -2px rgb(181 189 195 / 50%);
+}
+
+.text {
+	margin: 0 20px;
+	padding: 10px 0;
+	flex-grow: 1;
+	&Line {
+		text-decoration: line-through;
+	}
+	&NoLine {
+		text-decoration: none;
+	}
+}
+
+.date {
+	margin: 0 20px;
+}
+
+.btn {
+	width: 35px;
+	height: 35px;
+	border: none;
+	background-image: url("https://img.icons8.com/plasticine/100/filled-trash.png");
+	background-size: 100%;
+	background-position: center;
+	&:hover {
+		background-size: 90%;
+	}
+}
+
+@media (max-width: 500px) {
+	.text {
+		font-size: 13px;
+		margin: 0 10px;
+	}
+	.date {
+		font-size: 13px;
+		margin: 0 10px;
+	}
+}
